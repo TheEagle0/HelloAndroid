@@ -12,10 +12,10 @@
     android:orientation="vertical">
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="@dimen/dim_300dp"
         android:contentDescription="@string/image_view"
         android:src="@drawable/udacity"
-        android:layout_marginTop="8dp" />
+        android:layout_marginTop="@dimen/dim_8dp" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -28,7 +28,7 @@
             android:layout_centerVertical="true"
             android:contentDescription="@string/image_view"
             android:src="@drawable/ic_identity"
-            android:padding="4dp"/>
+            android:padding="@dimen/dim_4dp"/>
 
         <TextView
             android:id="@+id/name"
@@ -36,10 +36,10 @@
             android:layout_height="wrap_content"
             android:layout_toEndOf="@id/identity"
             android:layout_toRightOf="@id/identity"
-            android:padding="8dp"
+            android:padding="@dimen/dim_8dp"
             android:text="@string/name"
             android:textColor="@android:color/black"
-            android:textSize="24sp" />
+            android:textSize="@dimen/dim_24sp" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -53,7 +53,7 @@
             android:layout_centerVertical="true"
             android:contentDescription="@string/image_view"
             android:src="@drawable/location"
-            android:padding="4dp"/>
+            android:padding="@dimen/dim_4dp"/>
 
         <TextView
             android:id="@+id/address1"
@@ -61,10 +61,10 @@
             android:layout_height="wrap_content"
             android:layout_toEndOf="@id/location"
             android:layout_toRightOf="@id/location"
-            android:padding="8dp"
+            android:padding="@dimen/dim_8dp"
             android:text="@string/address_1"
             android:textColor="@android:color/black"
-            android:textSize="24sp" />
+            android:textSize="@dimen/dim_24sp" />
     </RelativeLayout>
 
 
@@ -72,12 +72,12 @@
         android:id="@+id/address2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="8dp"
+        android:padding="@dimen/dim_8dp"
         android:text="@string/address2"
         android:textColor="@android:color/black"
-        android:textSize="24sp"
-        android:layout_marginStart="40dp"
-        android:layout_marginLeft="40dp"/>
+        android:textSize="@dimen/dim_24sp"
+        android:layout_marginStart="@dimen/dim_40dp"
+        android:layout_marginLeft="@dimen/dim_40dp"/>
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -90,7 +90,7 @@
             android:layout_centerVertical="true"
             android:contentDescription="@string/image_view"
             android:src="@drawable/ic_action_name"
-            android:padding="4dp"/>
+            android:padding="@dimen/dim_4dp"/>
 
         <TextView
             android:id="@+id/phone"
@@ -98,10 +98,10 @@
             android:layout_height="wrap_content"
             android:layout_toEndOf="@id/telephone"
             android:layout_toRightOf="@id/telephone"
-            android:padding="8dp"
+            android:padding="@dimen/dim_8dp"
             android:text="@string/phone"
             android:textColor="@android:color/black"
-            android:textSize="24sp" />
+            android:textSize="@dimen/dim_24sp" />
     </RelativeLayout>
 
     <TextView
@@ -109,9 +109,9 @@
     android:layout_height="wrap_content"
     android:id="@+id/visit_us"
     android:text="@string/link"
-    android:textSize="18sp"
+    android:textSize="@dimen/dim_18sp"
     android:layout_gravity="center_horizontal"
-    android:padding="8dp"
+    android:padding="@dimen/dim_8dp"
     />
 </LinearLayout>
 </ScrollView>
